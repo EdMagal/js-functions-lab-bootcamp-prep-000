@@ -1,14 +1,5 @@
 // write your code below!
 var happyHolidays = () => "Happy holidays!";
-
-function happyHolidaysTo(name) {
-  return `Happy holidays, ${name}!`;
-}
-
-function happyHolidayTo(holiday, name){
-  return `Happy ${holiday}, ${name}!`;
-}
-
-function holidayCountdown(holiday, days) {
-  return `It's ${days} days until ${holiday}!`;
-}
+var happyHolidaysTo = name => `Happy holidays, ${name}!`;
+var happyHolidayTo = (holiday, name) => `Happy ${holiday}, ${name}!`;
+var holidayCountdown = (holiday, days) => `It's ${days} days until ${holiday}!`;
